@@ -1,24 +1,31 @@
 body{
   display: flex;
   justify-content: center;
-}
-.cuadroprincipal{
-  flex-direction: column;
-  display: flex;
-  width:20%;
-  align-items: center;
-  padding:1em;
+  /*background-color: #ededed;*/
+  background-image: url("./mainresoruces/images-icon-logotypes-miniaturas/wallpaper.jpg");
+  background-size:cover;
+  background-position: center;
+
 }
 
 input{
   margin-bottom:8%;
   padding:4%;
-  width: 50%;
+  width: 100%;
+}
+
+/*CSS Estructura de Login */
+.cuadroprincipal{
+  flex-direction: column;
+  display: flex;
+  width:15%;
+  align-items: center;
+  padding:5%;
 }
 
 
 @media screen and (max-width: 1000px) {
     .cuadroprincipal {
-        width: 40%;
+        width: 80%;
     }
 }
