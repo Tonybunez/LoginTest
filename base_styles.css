@@ -1,4 +1,18 @@
-
 body{
-  
+  display: flex;
+  justify-content: center;
+
+}
+.cuadroprincipal{
+  border:2px solid red;
+  flex-direction: column;
+  display: flex;
+  width:15em;
+  align-items: center;
+  padding:1rem;
+}
+
+input{
+  margin-bottom:10%;
+  padding:4%;
 }
